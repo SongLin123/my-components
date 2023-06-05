@@ -1,0 +1,13 @@
+{
+  "name": "@my/material-product-list",
+  "version": "0.2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "vue": "^3.2.45",
+    "@my/components": "workspace:^"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45",
+    "@my/components": "workspace:^"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "importHelpers": true,
+    "allowJs": true,
+    "composite": true
+  },
+  "include": [
+    "env.d.ts",
+    "scripts",
+    "vite.config.common.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
